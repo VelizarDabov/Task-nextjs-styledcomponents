@@ -2,6 +2,7 @@
 import { forwardRef } from "react";
 import styled from "styled-components";
 
+
 export const StyledSectionBigHeading = styled(forwardRef((props, ref) => <h1 {...props} ref={ref} />))`
   font-family: Poppins;
   font-weight: 600;

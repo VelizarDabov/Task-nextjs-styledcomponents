@@ -1,6 +1,7 @@
 export * from "./SectionBigHeadingCard";
-// export * from "./SectinoSubheadingCard";
-// export * from "./SectionParagraph_1";
-// export * from "./SectionParagraph_2";
-// export * from "./SectionParagraph_3";
+export * from "./SectionParagraphOne";
+export * from "./SectionParagraphTwo";
+export * from "./SectionParagraphThree";
+export * from "./SectionTitleOne"
+
 // export * from "./SectionTitleOneParagraph_";

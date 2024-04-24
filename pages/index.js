@@ -2,18 +2,19 @@ import Card from "../collections/Card/Card";
 import { Hero } from "../sections";
 
 const heroProps = {
-  image: { src: "/img/heroimg.png", alt: "", width: 1000, height: 1680 },
+  image: { src: "/img/heroimg.png", alt: "hero image", width: 1000, height: 1680 },
   title: "Agency procurement, outsourced.",
   description: "Start the process here",
   ctaText: "Start",
 };
 
 const cardProps={
-  image:{src:'', alt:'', width:380, height:380},
-  image:{src:'', alt:'', width:380, height:380},
-  image:{src:'', alt:'', width:380, height:380},
-  image:{src:'', alt:'', width:380, height:380},
+  image:{src:'/video.png', alt:'video img'},
+  imageOne:{src:'/research.png', alt:'brief image' },
+  imageTwo:{src:'/presentation.png', alt:'search image' },
+  imageThree:{src:'/brainstorming.png', alt:'pitch image'},
   title: "Managed agency selection",
+  titleOne:'Brief',
   description: "Stengthen your onboarding process",
 }
 export default function Home() {
