@@ -1,9 +1,12 @@
 // The Card to be exported goes here
 import React from 'react'
+import { StyledContainerCard, StyledTitle } from './elements'
 
-const Card = () => {
+const Card = ({ title, ...props}) => {
   return (
-    <div>Card</div>
+    <StyledContainerCard {...props}>
+<StyledTitle>{title}</StyledTitle>
+    </StyledContainerCard>
   )
 }
 

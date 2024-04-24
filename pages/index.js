@@ -13,6 +13,8 @@ const cardProps={
   image:{src:'', alt:'', width:380, height:380},
   image:{src:'', alt:'', width:380, height:380},
   image:{src:'', alt:'', width:380, height:380},
+  title: "Managed agency selection",
+  description: "Stengthen your onboarding process",
 }
 export default function Home() {
   return (
@@ -28,7 +30,7 @@ export default function Home() {
       <div>
         <Hero {...heroProps} />
         {/** Other sections */}
-        <Card />
+        <Card {...cardProps}/>
       </div>
     </>
   );
