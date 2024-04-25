@@ -10,7 +10,7 @@ import {
 } from "./elements";
 
 
-export const Hero = ({ image, title, description, ctaText, ...props }) => {
+export const Hero = ({ image, title, description, ctaText, ...props })=> {
 
 
   const handleClick =()=> {
