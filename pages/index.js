@@ -15,6 +15,8 @@ const cardProps={
   imageThree:{src:'/brainstorming.png', alt:'pitch image'},
   title: "Managed agency selection",
   titleOne:'Brief',
+  titleTwo:'Search',
+  titleThree:'Pitch',
   description: "Stengthen your onboarding process",
 }
 export default function Home() {

@@ -1,5 +1,5 @@
-import { StyledSectionParagraphThree } from "./elements";
+// import { StyledSectionParagraphThree } from "./elements";
 
-export const SectionParagraphThree = ({ ...props }) => {
-  return <StyledSectionParagraphThree {...props} />;
-};
+// export const SectionParagraphThree = ({ ...props }) => {
+//   return <StyledSectionParagraphThree {...props} />;
+// };

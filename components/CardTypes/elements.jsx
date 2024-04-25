@@ -30,10 +30,10 @@ overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     width: 295px;
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   font-size: 0.7rem;
   line-height: 1.1rem;
   width: 175px;
@@ -46,7 +46,7 @@ font-size: 1.5rem;
 margin: 5px;
 &:hover{
   text-decoration: underline;
-  color: #0070f3;
+  color: #0758b5;
 }
 @media (max-width: 600px) {
   font-size: 1rem;
