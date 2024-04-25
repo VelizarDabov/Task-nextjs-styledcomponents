@@ -20,7 +20,7 @@ export const cardProps1 = [
   {
     src: '/research.png',
     alt: 'brief image',
-    title: 'Search',
+    title: 'Brief',
   
     description: (<span>
 Complete <b>brief writing or simple guidance</b> on what to include, we’ve got you covered
