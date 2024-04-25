@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { 
     SectionContainerCard,
     SectionBigHeadingCard,
-    SectionParagraphOne,
-    SectionTitleOneParagraph,
+    SectionParagraphAll,
+    SectionTitleParagraph,
     } from "../../components";
 
 
@@ -13,8 +13,8 @@ export const StyledContainerCard = styled(({ height, ...props }) => <SectionCont
 
 `;
 export const StyledTitle = styled((props) => <SectionBigHeadingCard {...props} />)`
-  margin: 50px 0 0 0;
-  @media (max-width: 600px) {
+
+  @media (max-width: 640px) {
     font-size: 1.6rem;
   }
   @media (max-width: 480px) {
@@ -31,15 +31,20 @@ margin-right: 25px;
 `;
 
 export const StyledDescriptionCard = styled((props) => <p{...props} />)`
+text-align: center;
 font-family: Poppins;
 font-size: 1.25rem;
 line-height: 1.875rem;
 font-weight: 300;
   margin: 10px;
   text-align: center;
-@media (max-width: 600px) {
-  font-size: 0.84rem;
+@media (max-width: 640px) {
+   margin-left: 50px;
+    
+  font-size: 1rem;
+  
 }
+
 `;
 
 export const StyledSectionContainerSmallCard=styled(({...props}) => <div {...props}/>)`
@@ -68,21 +73,22 @@ export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)
   width: 100%;
   height: 100%;
   margin-top: 20px;
-  @media (max-width: 600px) {
+  @media (max-width: 640px) {
     max-width: 20rem;
     margin-bottom: 20px;
    
   }
   @media (max-width: 480px) {
-    max-width: 15.03rem;
+    max-width: 16rem;
   margin-left: 30px;
   
 }`;
 
 export const StyledSectionParagraphs = styled(({ ...props }) => <div {...props} />)`
 cursor: pointer;
+
 `;
-export const StyledSectionWrapperOne=styled(({ ...props }) => <div {...props} />)`
+export const StyledSectionWrapper=styled(({ ...props }) => <div {...props} />)`
 display: flex;
 align-items: center;
 border:1px solid;
@@ -99,7 +105,7 @@ border-color:#9a9696;
 @media (max-width: 1024px) {
   width: 480px;
 }
-@media (max-width: 580px) {
+@media (max-width: 640px) {
   width: 300px;
   align-items: center; 
 }
@@ -109,26 +115,26 @@ border-color:#9a9696;
   margin-left: 50px;
 }`;
 
-export const StyledSectionImageOne = styled(({ ...props }) => <div {...props} />)`
+export const StyledSectionImage = styled(({ ...props }) => <div {...props} />)`
 width: 70px;
 padding-top: 45px;
 margin: 0 40px 15px 40px;
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   width: 50px;
   padding-top: 20px;
   margin: 5px;
 }
 `;
 export const StyledSectionTitleOneParagraph = styled(({ ...props }) => <div {...props} />)`
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   width: 50%;
   margin-left: 15px;
 }
 `;
-export const StyledTitleOneParagraph = styled(({ ...props }) => <SectionTitleOneParagraph {...props} />)`
+export const StyledTitleParagraph = styled(({ ...props }) => <SectionTitleParagraph {...props} />)`
 
 `;
-export const StyledSectionParagraph = styled((props) => <SectionParagraphOne{...props} />)`
+export const StyledSectionParagraph = styled((props) => <SectionParagraphAll{...props} />)`
 
 `;
 

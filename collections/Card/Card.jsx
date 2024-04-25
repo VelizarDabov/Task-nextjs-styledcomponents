@@ -5,15 +5,14 @@ import {
   StyledDescriptionCard,
   StyledImageContainer,
   StyledSectionContainerSmallCard,
-  StyledSectionImageOne,
+  StyledSectionImage,
   StyledSectionParagraph,
   StyledSectionParagraphs,
   StyledSectionTitleOneParagraph,
-  StyledSectionWrapperOne,
+  StyledSectionWrapper,
   StyledTextContainer,
   StyledTitle,
-  StyledTitleOne,
-  StyledTitleOneParagraph,
+  StyledTitleParagraph,
 } from "./elements";
 import Image from "next/image";
 
@@ -36,7 +35,7 @@ const Card = ({
         <StyledDescriptionCard>{description}</StyledDescriptionCard>
       </StyledTextContainer>
 
-      {/* small card */}
+      {/* small container */}
       <StyledSectionContainerSmallCard>
         <StyledImageContainer>
           <Image
@@ -51,8 +50,8 @@ const Card = ({
 
         {/* paragraph one */}
         <StyledSectionParagraphs>
-          <StyledSectionWrapperOne>
-            <StyledSectionImageOne>
+          <StyledSectionWrapper>
+            <StyledSectionImage>
               <Image
                 objectFit="contain"
                 layout="responsive"
@@ -61,20 +60,20 @@ const Card = ({
                 width={40}
                 height={40}
               />
-            </StyledSectionImageOne>
+            </StyledSectionImage>
             <StyledSectionTitleOneParagraph>
-              <StyledTitleOneParagraph>{titleOne}</StyledTitleOneParagraph>
+              <StyledTitleParagraph>{titleOne}</StyledTitleParagraph>
               <StyledSectionParagraph>
                 Complete <b>brief writing or simple guidance</b> on what to
                 include, we ve got you covered
               </StyledSectionParagraph>
             </StyledSectionTitleOneParagraph>
-          </StyledSectionWrapperOne>
+          </StyledSectionWrapper>
 
           {/* paraghraph two */}
 
-          <StyledSectionWrapperOne>
-            <StyledSectionImageOne>
+          <StyledSectionWrapper>
+            <StyledSectionImage>
               <Image
                 objectFit="contain"
                 layout="responsive"
@@ -83,20 +82,20 @@ const Card = ({
                 width={40}
                 height={40}
               />
-            </StyledSectionImageOne>
+            </StyledSectionImage>
             <StyledSectionTitleOneParagraph>
-              <StyledTitleOneParagraph>{titleTwo}</StyledTitleOneParagraph>
+              <StyledTitleParagraph>{titleTwo}</StyledTitleParagraph>
               <StyledSectionParagraph>
                 Complete <b>brief writing or simple guidance</b> on what to
                 include, we ve got you covered
               </StyledSectionParagraph>
             </StyledSectionTitleOneParagraph>
-          </StyledSectionWrapperOne>
+          </StyledSectionWrapper>
 
           {/* paragraph three */}
 
-          <StyledSectionWrapperOne>
-            <StyledSectionImageOne>
+          <StyledSectionWrapper>
+            <StyledSectionImage>
               <Image
                 objectFit="contain"
                 layout="responsive"
@@ -105,15 +104,15 @@ const Card = ({
                 width={40}
                 height={40}
               />
-            </StyledSectionImageOne>
+            </StyledSectionImage>
             <StyledSectionTitleOneParagraph>
-              <StyledTitleOneParagraph>{titleThree}</StyledTitleOneParagraph>
+              <StyledTitleParagraph>{titleThree}</StyledTitleParagraph>
               <StyledSectionParagraph>
                 Complete <b>brief writing or simple guidance</b> on what to
                 include, we ve got you covered
               </StyledSectionParagraph>
             </StyledSectionTitleOneParagraph>
-          </StyledSectionWrapperOne>
+          </StyledSectionWrapper>
         </StyledSectionParagraphs>
       </StyledSectionContainerSmallCard>
     </StyledContainerCard>

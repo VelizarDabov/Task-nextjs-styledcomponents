@@ -18,7 +18,7 @@ font-weight: 300;
   text-align: center;
 `;
 
-export const StyledSectionParagraphOne = styled((props) => <p {...props} />)`
+export const StyledSectionParagraphAll = styled((props) => <p {...props} />)`
 font-family: Poppins;
 font-size: 1rem;
 line-height: 1.5rem;
@@ -34,9 +34,14 @@ overflow: hidden;
     width: 295px;
 }
 @media (max-width: 680px) {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  width: 200px;
+}
+@media (max-width: 480px) {
   font-size: 0.7rem;
   line-height: 1.1rem;
-  width: 175px;
+  width: 100px;
 }
 `;
 export const StyledSectionParagraph = styled(({ ...props }) => <h3 {...props} />)`
@@ -46,9 +51,9 @@ font-size: 1.5rem;
 margin: 5px;
 &:hover{
   text-decoration: underline;
-  color: #0758b5;
+  color: #0070f3;
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   font-size: 1rem;
 }
 `;

@@ -1,5 +1,5 @@
 import { StyledSectionParagraph } from "./elements";
 
-export const SectionTitleOneParagraph= ({ ...props }) => {
+export const SectionTitleParagraph= ({ ...props }) => {
   return <StyledSectionParagraph {...props} />;
 };

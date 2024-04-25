@@ -7,5 +7,4 @@ export const StyledSectionContainer = styled(({  ...props }) => <div {...props} 
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  
 `;
