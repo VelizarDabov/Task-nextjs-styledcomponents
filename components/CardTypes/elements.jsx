@@ -1,7 +1,7 @@
-import { forwardRef } from "react";
+
 import styled from "styled-components";
 
-export const StyledSectionBigHeadingCard = styled(forwardRef((props, ref) => <h1 {...props} ref={ref} />))`
+export const StyledSectionBigHeadingCard = styled(((props) => <h1 {...props} />))`
   font-family: Poppins;
   font-weight: 600;
   font-size: 3rem;
@@ -9,7 +9,7 @@ export const StyledSectionBigHeadingCard = styled(forwardRef((props, ref) => <h1
   text-align: center;
 `;
 
-export const StyledSectionSubheadingCard = styled(forwardRef((props, ref) => <h2 {...props} ref={ref} />))`
+export const StyledSectionSubheadingCard = styled(((props) => <h2 {...props} />))`
 font-family: Poppins;
 font-size: 1.25rem;
 line-height: 1.875rem;
