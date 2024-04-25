@@ -57,7 +57,7 @@ export const StyledSectionContainerSmallCard=styled(({...props}) => <div {...pro
   background-repeat: no-repeat;
   background-image: url('/background.png');
   background-size:2040px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     background-position: center;
