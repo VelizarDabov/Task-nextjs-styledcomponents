@@ -8,17 +8,34 @@ const heroProps = {
   ctaText: "Start",
 };
 
-const cardProps={
+export const cardProps={
   image:{src:'/video.png', alt:'video img'},
-  imageOne:{src:'/research.png', alt:'brief image' },
-  imageTwo:{src:'/presentation.png', alt:'search image' },
-  imageThree:{src:'/brainstorming.png', alt:'pitch image'},
+
   title: "Managed agency selection",
-  titleOne:'Brief',
-  titleTwo:'Search',
-  titleThree:'Pitch',
+ 
   description: "Stengthen your onboarding process",
 }
+export const cardProps1 = [
+
+  {
+    src: '/research.png',
+    alt: 'brief image',
+    title: 'Search',
+    description: 'Complete brief writing or simple guidance on what to include, we’ve got you covered',
+  },
+  {
+    src: '/presentation.png',
+    alt: 'search image',
+    title: 'Pitch',
+    description: 'Complete brief writing or simple guidance on what to include, we’ve got you covered',
+  },
+  {
+    src: '/brainstorming.png',
+    alt: 'pitch image',
+    title: 'Managed agency selection',
+    description: 'Strengthen your onboarding process',
+  }
+];
 export default function Home() {
   return (
     <>
