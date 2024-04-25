@@ -30,7 +30,7 @@ const Card = ({
 }) => {
   return (
     <StyledContainerCard {...props}>
-      <StyledTitle>{title}</StyledTitle>
+      <StyledTitle id='card'>{title}</StyledTitle>
       <StyledTextContainer>
         <StyledDescriptionCard>{description}</StyledDescriptionCard>
       </StyledTextContainer>
