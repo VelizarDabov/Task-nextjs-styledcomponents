@@ -18,8 +18,8 @@ export const StyledTitle = styled((props) => <SectionBigHeadingCard {...props} /
     font-size: 1.6rem;
   }
   @media (max-width: 480px) {
+    font-size: 1.6rem;
 
-  margin-left: 80px;
 }`;
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`

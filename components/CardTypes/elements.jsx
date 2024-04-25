@@ -34,14 +34,14 @@ overflow: hidden;
     width: 295px;
 }
 @media (max-width: 680px) {
-  font-size: 0.9rem;
-  line-height: 1.1rem;
+  font-size: 0.8rem;
+
   width: 200px;
 }
 @media (max-width: 480px) {
-  font-size: 0.7rem;
-  line-height: 1.1rem;
-  width: 100px;
+  font-size: 0.6rem;
+  font-weight: 400;
+  width: 150px;
 }
 `;
 export const StyledSectionParagraph = styled(({ ...props }) => <h3 {...props} />)`
