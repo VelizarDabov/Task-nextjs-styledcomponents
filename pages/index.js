@@ -21,19 +21,29 @@ export const cardProps1 = [
     src: '/research.png',
     alt: 'brief image',
     title: 'Search',
-    description: 'Complete brief writing or simple guidance on what to include, we’ve got you covered',
+  
+    description: (<span>
+Complete <b>brief writing or simple guidance</b> on what to include, we’ve got you covered
+    </span>),
   },
   {
     src: '/presentation.png',
     alt: 'search image',
-    title: 'Pitch',
-    description: 'Complete brief writing or simple guidance on what to include, we’ve got you covered',
-  },
+    title: 'Search',
+    description: (
+      <span>
+        In-depth agency search covering; <b>criteria matching</b>, door knocking and due-dilligence vetting.
+      </span>
+    ),  },
   {
     src: '/brainstorming.png',
     alt: 'pitch image',
-    title: 'Managed agency selection',
-    description: 'Strengthen your onboarding process',
+    title: 'Pitch',
+    description:  (
+      <span>
+        Comphensive <b>pitch management,</b> including comms, diary, management and pitch hosting.
+      </span>
+    ), 
   }
 ];
 export default function Home() {
